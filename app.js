@@ -10,5 +10,8 @@ app.use(Express.json());
 
 // app.use("/app",productroute)
 
-
+app.get("/",(req,res)=>{
+    console.log("hello");
+    res.send("hello sir how are you , i am fine , wow")
+})
 module.exports=app;
